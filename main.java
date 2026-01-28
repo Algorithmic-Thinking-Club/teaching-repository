@@ -1,12 +1,13 @@
-import Inheritance.*;
+import folder.*;
+import folder.ClassName.enumName;
+import folder.ClassName.otherEnumName;
 
 public class main{
+    static ClassName objectName=new ClassName();
     public static void main(String[] args) {
-        ClassName objectName=new ClassName("Return Method Output");
-        GrandChildClass otherObjectName= new GrandChildClass();
-        System.out.println(objectName.returnMethod());
-        otherObjectName.parentMethod();
-        otherObjectName.childMethod();
+        // objectName.ClassMethod(ClassName.enumName = enumName.Constant1, ClassName.otherEnumName = otherEnumName.OtherConstant3);
+        
+        
         
 
 }
